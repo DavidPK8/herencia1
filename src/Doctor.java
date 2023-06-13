@@ -3,6 +3,8 @@ public class Doctor extends Personas{
     private String especialidad;
     private String horario;
     private String hospital;
+    private int edad;
+    private String signo;
 
     public Doctor(){
         super();
@@ -15,7 +17,58 @@ public class Doctor extends Personas{
         this.especialidad = especialidad;
         this.horario = horario;
         this.hospital = hospital;
+        this.edad = edad;
+        this.signo = signo;
     }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getEspecialidad() {
+        return especialidad;
+    }
+
+    public void setEspecialidad(String especialidad) {
+        this.especialidad = especialidad;
+    }
+
+    public String getHorario() {
+        return horario;
+    }
+
+    public void setHorario(String horario) {
+        this.horario = horario;
+    }
+
+    public String getHospital() {
+        return hospital;
+    }
+
+    public void setHospital(String hospital) {
+        this.hospital = hospital;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getSigno() {
+        return signo;
+    }
+
+    public void setSigno(String signo) {
+        this.signo = signo;
+    }
+
     //Metodos
     public void examinar(){
         System.out.println("Este es el metodo de examinar");

@@ -25,6 +25,7 @@ public class Personas {
         this.ci = ci;
     }
 
+
     public String getNombre() {
         return nombre;
     }
@@ -58,9 +59,9 @@ public class Personas {
     }
     //Metodos
     public void caminar(){
-        System.out.println("Este es el metodo de caminar");
+        System.out.println("Este es el metodo de caminar que pertenece a persona");
     }
-    public int trabajar(){
-        return 0;
+    public void trabajar(){
+        System.out.println("Este es el metodo de trabajar que pertenece a persona");
     }
 }
