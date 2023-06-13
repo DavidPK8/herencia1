@@ -4,6 +4,8 @@ public class Personas {
     private String apellido;
     private String direccion;
     private String telefono;
+    public Personas(){
+    }
     //Constructores
     public Personas(int ci, String nombre, String apellido, String direccion, String telefono) {
         this.ci = ci;
@@ -54,5 +56,11 @@ public class Personas {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
-
+    //Metodos
+    public void caminar(){
+        System.out.println("Este es el metodo de caminar");
+    }
+    public int trabajar(){
+        return 0;
+    }
 }
